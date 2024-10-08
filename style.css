@@ -64,6 +64,7 @@ h2 {
   font-size: 20pt;
   color: rgb(71, 234, 255);
   text-align: center;
+  text-decoration: underline;
 }
 
 p {
@@ -94,4 +95,30 @@ section .quote {
   text-shadow: 1px 1px 2px rgb(0, 183, 255);
   text-align: center;
   margin-top: 2em;
+}
+
+/*Used img instead of individual
+.about-section p:nth-of-type(2n) > .running-picture {
+  float: right;
+}
+
+.about-section p:nth-of-type(2n +) > .collecting-picture {
+  float: right;
+}
+
+.about-section p:nth-of-type(2n) > .bowling-picture {
+  float: right;
+}*/
+
+.about-quote {
+  font-weight: 200;
+  font-size: 2rem;
+  color: rgb(0, 183, 255);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif cursive;
+  text-align: center;
+  margin: auto;
+}
+
+.about-section p {
+  font-size: 16pt;
 }
